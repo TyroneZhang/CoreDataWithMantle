@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A7F2CC4-C48A-4BB8-9FC3-6B641C61FE2C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoreDataAndMantle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3BB8C985F623F2F597933742039DA736BD1497C9</key>
+		<string>https://github.com/TyroneZhang/CoreDataWithMantle.git</string>
+		<key>6338E5888E15F9EF0EFD5D4A73A0481340F2A39E</key>
+		<string>https://github.com/TyroneZhang/CoreDataAndMantle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoreDataAndMantle.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3BB8C985F623F2F597933742039DA736BD1497C9</key>
+		<string>..</string>
+		<key>6338E5888E15F9EF0EFD5D4A73A0481340F2A39E</key>
+		<string>../../CoreDataAndMantle</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TyroneZhang/CoreDataWithMantle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3BB8C985F623F2F597933742039DA736BD1497C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6338E5888E15F9EF0EFD5D4A73A0481340F2A39E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreDataAndMantle</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3BB8C985F623F2F597933742039DA736BD1497C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreDataWithMantle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
