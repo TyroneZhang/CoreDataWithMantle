@@ -17,6 +17,8 @@
 @property (nonatomic, assign) NSInteger productId;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, assign) NSInteger parentId;
+// to manay relationship
+@property (nonatomic, copy) NSArray *products;
 
 + (NSSortDescriptor *)sortDescriptor;
 

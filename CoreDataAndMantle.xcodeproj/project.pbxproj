@@ -16,6 +16,7 @@
 		5281AD8E1B8F490A00C0EEAB /* CoreDataAndMantleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281AD8D1B8F490A00C0EEAB /* CoreDataAndMantleTests.m */; };
 		5281ADEC1B92944B00C0EEAB /* TYHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281ADEB1B92944B00C0EEAB /* TYHTTPRequestOperationManager.m */; };
 		5281ADF01B92A12B00C0EEAB /* TYHTTPRequestOperationManager+TYProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281ADEF1B92A12B00C0EEAB /* TYHTTPRequestOperationManager+TYProductCategory.m */; };
+		52DAF0EB1B99381E00A94A3F /* TYProuct.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF0EA1B99381E00A94A3F /* TYProuct.m */; };
 		8BF20D571B8FEBB000C943C4 /* TAProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF20D561B8FEBB000C943C4 /* TAProductCategory.m */; };
 		8BF20D981B9033F600C943C4 /* CoreDataMnager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF20D971B9033F600C943C4 /* CoreDataMnager.m */; };
 		8BF20D9B1B903AD900C943C4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BF20D991B903AD900C943C4 /* Model.xcdatamodeld */; };
@@ -53,6 +54,8 @@
 		5281ADEA1B92944B00C0EEAB /* TYHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHTTPRequestOperationManager.h; sourceTree = "<group>"; };
 		5281ADEB1B92944B00C0EEAB /* TYHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHTTPRequestOperationManager.m; sourceTree = "<group>"; };
 		5281ADEF1B92A12B00C0EEAB /* TYHTTPRequestOperationManager+TYProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYHTTPRequestOperationManager+TYProductCategory.m"; sourceTree = "<group>"; };
+		52DAF0E91B99381E00A94A3F /* TYProuct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYProuct.h; sourceTree = "<group>"; };
+		52DAF0EA1B99381E00A94A3F /* TYProuct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYProuct.m; sourceTree = "<group>"; };
 		8BF20D551B8FEBB000C943C4 /* TAProductCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAProductCategory.h; sourceTree = "<group>"; };
 		8BF20D561B8FEBB000C943C4 /* TAProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAProductCategory.m; sourceTree = "<group>"; };
 		8BF20D961B9033F600C943C4 /* CoreDataMnager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMnager.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 			children = (
 				8BF20D551B8FEBB000C943C4 /* TAProductCategory.h */,
 				8BF20D561B8FEBB000C943C4 /* TAProductCategory.m */,
+				52DAF0E91B99381E00A94A3F /* TYProuct.h */,
+				52DAF0EA1B99381E00A94A3F /* TYProuct.m */,
 				8BF20D991B903AD900C943C4 /* Model.xcdatamodeld */,
 			);
 			path = Model;
@@ -341,6 +346,7 @@
 				5281AD7A1B8F490A00C0EEAB /* ViewController.m in Sources */,
 				8BF20D571B8FEBB000C943C4 /* TAProductCategory.m in Sources */,
 				5281AD771B8F490A00C0EEAB /* AppDelegate.m in Sources */,
+				52DAF0EB1B99381E00A94A3F /* TYProuct.m in Sources */,
 				5281ADEC1B92944B00C0EEAB /* TYHTTPRequestOperationManager.m in Sources */,
 				8BF20D981B9033F600C943C4 /* CoreDataMnager.m in Sources */,
 				5281AD741B8F490A00C0EEAB /* main.m in Sources */,

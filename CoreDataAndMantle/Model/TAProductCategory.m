@@ -8,6 +8,8 @@
 
 #import "TAProductCategory.h"
 #import <MTLValueTransformer.h>
+#import "TYProuct.h"
+#import <NSValueTransformer+MTLPredefinedTransformerAdditions.h>
 
 @implementation TAProductCategory
 
@@ -38,6 +40,11 @@
     }];
 }
 
++ (NSValueTransformer *)productsJSONTransformer
+{
+    return [MTLJSONAdapter arrayTransformerWithModelClass:TYProuct.class];
+}
+
 #pragma mark - Managed object serialization
 
 + (NSString *)managedObjectEntityName
@@ -53,6 +60,11 @@
              @"name": @"name",
              @"parentId": @"parentId"
              };
+}
+
++ (NSDictionary *)relationshipModelClassesByPropertyKey
+{
+    return @{@"products": TYProuct.class};
 }
 
 //在从coredata中取数据时的数据排序方式
